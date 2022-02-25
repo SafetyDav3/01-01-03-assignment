@@ -1,9 +1,11 @@
 /* TODO: Label selector type */
+/* ↓↓↓ Selecting all elements of the document, and applying a font family. ↓↓↓ */
 * {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  }
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
 /* TODO: Label selector type */
+/* ↓↓↓ Selecting the "body" of the document to effect everything the user sees. In this case it's the background color. ↓↓↓ */
 body {
   background-color: lemonchiffon;
 }
@@ -23,11 +25,13 @@ figure {
 }
 
 /* TODO: Label selector type */
+/* Selecting a class to effect a grouping of elements denoted by said "class". */
 .highlighted-text {
   font-weight: bolder;
 }
 
 /* TODO: Label selector type */
+/* Selecting an element by the "id" to effect a specific element. An "id" cannot be shared with other elements. */
 #contact-section {
   background-color: #f0ead6;
 }
